@@ -8,20 +8,23 @@
   * Cost-Based Optimization
      * Cost Models
        * Cardinality Estimation
+         * Schema meta-data 
          * Histograms
          * Sketches
          * Sampling
-       * Cost-Related GUC Parameters 
+         * ML models
+       * Cost-Related GUC Parameters
+    * Top Down Optimization
+    * Bottom-Up Dynamic Programming
+      * Handling Aggregates and Distincts
+      * Handling Ordering, Data Distribution, Grouping
   * Rule-Based Optimization
   * Hint-Based Optimization
 * Query Planner
-    * Plan Ranking
-    * Robust Planning 
-    * Join Order Selection
-      * Interesting Orders 
-    * Top Down Optimization
-    * Bottom-Up Dynamic Programming
+  * Plan Ranking
+  * Robust Planning 
   * Query Re-Optimization
+  * Distributed Computation Graphs
 * Query Execution
   * Execution Models
     * Pull-Based Execution
